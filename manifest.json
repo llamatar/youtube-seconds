@@ -8,6 +8,16 @@
         "*://*.youtube.com/*"
       ],
       "js": [
+        "contentscript.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "matches": [
+        "*://*.youtube.com/*"
+      ],
+      "resources": [
         "content.js"
       ]
     }
