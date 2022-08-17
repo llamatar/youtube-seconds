@@ -1,6 +1,6 @@
 window.addEventListener('keydown', function (e) {
   const player = document.querySelector('ytd-player').getPlayer();
-  const seconds = 1;
+  const seconds = 2;
   if (e.key === 'u') {
     player.seekToStreamTime(player.getCurrentTime() - seconds)
   }
